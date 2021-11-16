@@ -21,7 +21,3 @@ class Teacher:
     def hometown(self):
         return self._hometown
 
-    def school(self):
-        schools = store['schools']
-        matching_schools = [school for school in schools if school.id == self._school_id]
-        return matching_schools[0]

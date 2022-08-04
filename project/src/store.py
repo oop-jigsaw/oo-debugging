@@ -1,0 +1,1 @@
+store = {'teachers': [], 'students': [], 'schools': []}

@@ -1,8 +1,7 @@
-from store import store
-from school import School
+from src.store import store
+
 class Student:
     def __init__(self, name = '', hometown = '', school = ''):
-        store['students'].append(self)
         self.name = name
         self.hometown = hometown
         self.school = school

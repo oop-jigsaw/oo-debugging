@@ -1,4 +1,4 @@
-from store import store
+from src.store import store
 class Teacher:
     def __init__(self, name = '', hometown = '', school = ''):
         store['teachers'].append(self)
